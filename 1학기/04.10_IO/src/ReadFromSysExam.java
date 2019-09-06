@@ -9,7 +9,7 @@ public class ReadFromSysExam {
 			len = System.in.read(b);
 		} catch (IOException e) {
 //			e.printStackTrace();
-			System.out.println("ÀÔ·Â ½ÇÆÐ");
+			System.out.println("ìž…ë ¥ ì‹¤íŒ¨");
 		}
 		System.out.write(b, 0, len);
 		
